@@ -2,23 +2,21 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <title>{{ page.title }}</title>
+  <title>{{ page.title }} | {{ site.title }}</title>
 </head>
 <body>
-<nav>
-  <a href="{{ site.baseurl }}/">Inicio</a>
-  <a href="{{ site.baseurl }}/about/">Sobre mí</a>
-  <a href="{{ site.baseurl }}/contact/">Contacto</a>
-  <a href="{{ site.baseurl }}/proyectos/">Proyectos</a>
-</nav>
+  <nav>
+    <a href="{{ site.baseurl }}/">Inicio</a> |
+    <a href="{{ site.baseurl }}/about/">Sobre mí</a> |
+    <a href="{{ site.baseurl }}/contact/">Contacto</a> |
+    <a href="{{ site.baseurl }}/proyectos/">Proyectos</a>
+  </nav>
 
   <hr />
 
   {{ content }}
 
- <hr />
-</footer>
+  <hr />
 </body>
 </html>
-
 

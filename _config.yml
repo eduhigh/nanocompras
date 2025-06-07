@@ -10,3 +10,4 @@ theme: minima
 collections:
   proyectos:
     output: true
+
