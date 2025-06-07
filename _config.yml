@@ -1,7 +1,7 @@
 title: Mi Web
 email: 2montenegroeduardo@gmail.com
 description: Esta es una pagina creada para la venta y distribucion de productos de tecnologia 
-baseurl: ""
+baseurl: "/nanocompras"
 url: "https://eduhigh.github.io"
 author: Eduardo Montenegro
 markdown: kramdown
